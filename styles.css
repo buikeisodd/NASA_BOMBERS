@@ -74,7 +74,7 @@ body {
 }
 /* FIRST SECTION HERO SECTION */
 .firstsection-hero {
-  background-image: url("./images/backk.jpg");
+  background-image: url("images/backk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* width: 100%; */
@@ -146,7 +146,7 @@ body {
 }
 
 .item1 {
-  background-image: url("./images/media bg-cover.png");
+  background-image: url("images/media bg-cover.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 332px;
@@ -155,7 +155,7 @@ body {
 }
 
 .item2 {
-  background-image: url("./images/apple.png");
+  background-image: url("images/apple.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 333px;
@@ -163,7 +163,7 @@ body {
   border: 1px solid rgba(236, 236, 236, 1);
 }
 .item3 {
-  background-image: url("./images/meal.png");
+  background-image: url("images/meal.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 333px;
@@ -810,7 +810,7 @@ small {
   width: 328px;
 }
 .box1 {
-  background-image: url(./images/ROAD.png);
+  background-image: url(images/ROAD.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
