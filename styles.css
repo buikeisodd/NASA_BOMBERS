@@ -299,7 +299,7 @@ body {
   justify-content: center;
 }
 .sidebar {
-  background: url(/images/card-cover-5.png);
+  background: url(images/card-cover-5.png);
   border: #8ec2f2 solid;
   width: 389px;
   height: 700px;
@@ -313,9 +313,9 @@ body {
 }
 
 .side {
-  background: url(/images/card-cover-5.jpg);
+  background: url(images/card-cover-5.jpg);
   border: #8ec2f2 solid;
-  background-position: co;
+  background-position: cover;
   width: 389px;
   background-size: cover;
   background-repeat: no-repeat;
