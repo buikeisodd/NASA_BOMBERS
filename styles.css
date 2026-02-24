@@ -12,6 +12,7 @@ body {
 .header {
   width: 100%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 .head-section {
   display: flex;
@@ -58,6 +59,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.2px;
   padding-right: 10px;
+  
 }
 .seee {
   display: flex;
@@ -323,7 +325,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   /* min-height: 500px; */
-  padding: 40px;
+ 
   margin-left: 50px;
 }
 .prod {
@@ -1085,8 +1087,9 @@ a {
   .nav-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    width: 70vw;
+    gap: 50px;
+    width: 100vw;
+    padding: 20px 10px 20px 10px;
     /* padding: 5px; */
     margin: auto;
   }
@@ -1112,8 +1115,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
-    margin-top: 40px;
+    gap: 20px;
+    padding-bottom: 10px;
   }
   .menu-dropdown a {
     text-decoration: none;
@@ -1223,13 +1226,16 @@ a {
     justify-content: center;
     /* padding: 80px 80px; */
   }
-  .secound-div h3 {
-    color: red;
-  }
   .secound-div {
     width: 100%;
     height: auto;
     min-height: 232px;
+  }
+  .flex-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
   }
   /* SECTION FURNITURED BEST SELLER  */
   .container {
@@ -1386,6 +1392,18 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+  .secound-div h3 {
+    width: 90vw;
+  }
+  .secound-div h2 {
+    width: 90vw;
+  }
+  .secound-div h6 {
+    width: 90vw;
+  }
+  .mobileq-nav a {
+    width: 20vw;
   }
   .grid2 {
     display: none;
