@@ -293,10 +293,13 @@ body {
   width: 1077px;
   height: 796px;
   margin: 0 auto;
-  margin-bottom: 50px;
-  padding-top: 30px;
-  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
   justify-content: center;
+}
+.secound-ssc {
+  margin-bottom: 50px;
 }
 .sidebar {
   background: url(images/card-cover-5.png);
@@ -429,10 +432,9 @@ body {
   font-size: 16px;
 }
 .unsplash-img {
-  width: 100%;
-  height: 700px;
+  width: 674px;
+  height: 649px;
 }
-
 
 /* EMMA SECOUND AND THE REST SECTION STYLES---*/
 
@@ -454,18 +456,20 @@ body {
   background-color: #fafafa;
   justify-content: center;
   width: 401px;
-  gap: 30px;
+  height: 649px;
+  gap: 10px;
   opacity: 1;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 80px;
+  /* padding-top: 80px;
+  padding-bottom: 80px; */
 }
-.ssc-cont{
+.ssc-cont1 {
   display: flex;
-  width:1069px ;
-  
+  width: 1069px;
+  height: 649px;
 }
 
-ssc-2 .ssc-p {
+.ssc-2 .ssc-p {
   width: 280px;
   opacity: 1;
   font-weight: 400;
@@ -544,7 +548,7 @@ small {
   display: flex;
   padding: 20px, 40px, 20px, 40px;
   justify-content: space-between;
-  width: 1066px;
+  width: 1040px;
   margin: 0 auto;
 }
 
@@ -627,10 +631,10 @@ small {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-.img-container {
+/* .img-container {
   width: 674px;
   justify-content: center;
-}
+} */
 /* ENDS HERE  */
 /*  ---BEST PRODUCTS---SECTION */
 .product-section {
@@ -818,23 +822,21 @@ small {
   position: relative;
 }
 .box2 {
-  background-image: url(images/box2.png
-  );
+  background-image: url(images/box2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 300px;
   position: relative;
-  }
-  .box3 {
-  background-image: url(images/box3.png
-  );
+}
+.box3 {
+  background-image: url(images/box3.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 300px;
   position: relative;
-  }
+}
 
 .new {
   position: absolute;
@@ -1066,5 +1068,512 @@ a {
   letter-spacing: 0.2px;
   color: rgba(255, 255, 255, 1);
 }
+.nav-container {
+  display: none;
+}
+.header2-bgimg {
+  display: none;
+}
+/* ------------------------------------------------- */
+@media only screen and (max-width: 640px) {
+  * {
+    /* max-width: 90vw; */
+    margin: auto;
+    box-sizing: border-box;
+     outline: 1px solid red !important;
+  }
 
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 70vw;
+    /* padding: 5px; */
+    margin: auto;
+  }
+
+  .firstsection-hero {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header2 {
+    display: flex;
+  }
+
+  .header2-div2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+  }
+  .menu-dropdown a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #737373;
+  }
+  .nav-section {
+    width: 100%;
+  }
+  .menu-dropdown {
+    width: 80%;
+    margin: auto;
+  }
+  .header2-bgimg {
+    background-image: url(images/header2bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+  }
+  .header2-btn {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #23a6f0;
+    border: none;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+  }
+
+  .header2-content {
+    /* width: 410px; */
+    /* height: 300px; */
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .header2-content h2 {
+    /* check 254px */
+    width: 80%;
+    height: 100px;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .header2-content p {
+    /* check  291px*/
+    width: 291px;
+    height: 90px;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    /* width: 419px; */
+    width: 90vw;
+    min-height: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  .secound-divsection {
+    /* width: 333px; */
+    width: 90vw;
+    /* min-height: 876px; */
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 80px 80px; */
+  }
+  .secound-div h3{
+    color: red;
+  }
+  .secound-div {
+    width: 100%;
+    height: auto;
+    min-height: 232px;
+  }
+  /* SECTION FURNITURED BEST SELLER  */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .sidebar {
+    background: url(images/card-cover-5.png);
+    border: #8ec2f2 solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 664px;
+    height: auto;
+    margin: auto;
+    /* width: 389px; */
+    /* height: 700px */
+    /* padding: 40px; */
+  }
+
+  .product-section {
+    /* width: 376px; */
+    width: 100%;
+    height: auto;
+    min-height: 1400px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    gap: 24px;
+  }
+  .product-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    gap: 24px;
+    opacity: 1;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .product-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    min-height: 1000px;
+    height: auto;
+    gap: 19px;
+    opacity: 1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+  }
+  .product-card {
+    width: 100%;
+    height: auto;
+  }
+  .grid2 {
+    display: none;
+  }
+  /*----------- BIKE GUY SECTION------------ */
+  .secound-ssc {
+    /* width: 419px; */
+    /* height: 1859; */
+    opacity: 1;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 1680px;
+    height: auto;
+  }
+  /* .splash{
+  width: 414px;
+  width: 505px;
+} */
+  .ssc-cont1 {
+    /* width: 419px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .img-container {
+    width: 100%;
+    min-height: 505px;
+    margin: auto;
+    height: auto;
+  }
+  .unsplash-img {
+    width: 100%;
+    min-height: 505px;
+    height: auto;
+  }
+  .second-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 48px 48px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    min-height: auto;
+    opacity: 1;
+    gap: 30px;
+  }
+  .img-container img {
+    width: 100%;
+    height: auto;
+  }
+  /*  CONTAINER 2 SECTION*/
+  .cont2 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 2200px;
+    height: auto;
+  }
+  .side {
+    background: url(images/card-cover-5.jpg);
+    border: #8ec2f2 solid;
+    background-position: cover;
+    width: 95%;
+    margin: auto;
+    min-height: 664px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .product-header nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid2 {
+    display: none;
+  }
+  /* GIRL PIC SECTION */
+  .ssc-cont2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .ssc-ssc {
+    width: 80%;
+    min-height: 622px;
+    height: auto;
+  }
+  .img-container ladyimg {
+    width: 80%;
+    height: auto;
+  }
+  #ladyimg{
+    width: 70vw;
+    margin: auto;
+  }
+  #ladyid2{
+    width: 100%;
+  }
+  .ladyimg{
+    width: 60vw;
+    margin: auto;
+  }
+  .unsplash-img {
+    width: 80%;
+    height: auto;
+  }
+  .printed-summer-dress{
+    width: 50vw;
+    margin: auto;
+  }
+  .summer{
+    width: 100%;
+  }
+
+  /* BESTSELLER PRODUCTS ROW */
+  .product-section {
+    width: 80%;
+    margin: auto;
+    min-height: auto;
+    height: auto;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+  }
+  .products-container {
+    width: 100%;
+    height: auto;
+    /* height: 2446px; */
+    gap: 30px;
+    opacity: 1;
+  }
+  .line {
+    width: 80%;
+  }
   
+  .products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .topic-div{
+    width: 80%;
+    margin: auto;
+  }
+
+  /* IMAGES GRID SECTION */
+  .images-section {
+    width: 80%;
+    height: auto;
+    opacity: 1;
+    background-color: #fafafa;
+    margin: auto;
+  }
+  .brand-logo {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* FEATURED PRATICE SECTION */
+
+  .featured-section {
+    width: 93%;
+    height: auto;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    opacity: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 80px;
+  }
+  .featured-cards {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .sub-p {
+    width: 100%;
+  }
+  .ft-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #ffffff;
+  }
+  .content {
+    width: 90%;
+    height: auto;
+    gap: 10px;
+    opacity: 1;
+  }
+  .maincontent-text {
+    width: 90%;
+    height: 134px;
+    opacity: 1;
+  }
+
+  /* ----- FOOTER SECTION ----------- */
+
+  .secound-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-section {
+    width: 100%;
+    height: auto;
+  }
+  .foot-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .first-footer {
+    display: block;
+    width: 100%;
+  }
+
+  .foot-btn {
+    margin-top: 2rem;
+  }
+
+  .last-footer {
+    display: block;
+    width: 100%;
+  }
+
+  .last-icons {
+    margin-top: 2rem;
+  }
+  .lastfoot-h6 {
+    width: 80%;
+  }
+}
