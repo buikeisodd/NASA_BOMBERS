@@ -59,7 +59,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.2px;
   padding-right: 10px;
-  
 }
 .seee {
   display: flex;
@@ -71,15 +70,19 @@ body {
   display: flex;
   gap: 10px;
 }
+
 #shop {
   border: none;
 }
+
 /* FIRST SECTION HERO SECTION */
 .firstsection-hero {
   background-image: url("images/backk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* width: 100%; */
+  display: flex;
+  flex-direction: column;
   min-width: 1150px;
   margin: 0 auto;
 }
@@ -89,6 +92,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  /* position: relative; */
 }
 
 .firstsection-content {
@@ -110,6 +114,31 @@ body {
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
+.sliders {
+  display: flex;
+  margin-top: 50px;
+  cursor: pointer;
+  transform: translateY(140px);
+}
+.slide {
+  width: 50px;
+}
+.arrows {
+  position: absolute;
+  top: 70%;
+  margin: 0 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 30px;
+  height: auto;
+}
+.arrows:first-of-type {
+  left: 0;
+}
+.arrows:last-of-type {
+  right: 0;
+}
+
 .first-p {
   font-family: Montserrat;
   font-weight: 400;
@@ -325,7 +354,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   /* min-height: 500px; */
- 
+
   margin-left: 50px;
 }
 .prod {
@@ -1231,7 +1260,7 @@ a {
     height: auto;
     min-height: 232px;
   }
-  .flex-section{
+  .flex-section {
     display: flex;
     text-align: center;
     justify-content: center;
